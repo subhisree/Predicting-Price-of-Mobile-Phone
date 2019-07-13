@@ -19,8 +19,8 @@ warnings.filterwarnings('ignore')
 # In[2]:
 
 
-train = pd.read_csv('C:/Users/Subhiksha/Downloads/train.csv')
-test  = pd.read_csv('C:/Users/Subhiksha/Downloads/test.csv')
+train = pd.read_csv('../train.csv')
+test  = pd.read_csv('../test.csv')
 
 
 # In[3]:
