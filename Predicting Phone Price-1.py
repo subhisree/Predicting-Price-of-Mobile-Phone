@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 # In[32]:
 
 
-data = pd.read_csv('C:/Users/Subhiksha/Downloads/train.csv')
+data = pd.read_csv('../train.csv')
 
 
 # In[33]:
@@ -103,7 +103,7 @@ acc = correct_pred/x_test.shape[0]
 print('SVM Linear Accuracy: {}'.format(acc))
 
 
-# In[ ]:
+# In[41]:
 
 
 svc = SVC(kernel = 'rbf')
@@ -115,7 +115,7 @@ acc = correct_pred/x_test.shape[0]
 print('SVM Rbf Accuracy: {}'.format(acc))
 
 
-# In[41]:
+# In[42]:
 
 
 from sklearn.linear_model import LogisticRegression
